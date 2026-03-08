@@ -379,6 +379,10 @@ address {
   text-align: center;
   padding: 24px;
   margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
 }
 
 .features .feature-text {

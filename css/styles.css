@@ -202,9 +202,10 @@ address {
 .nav-link-active {
   color: #404bbf;
   position: relative;
+  height: 100%;
 }
 
-.nav-link::after {
+.nav-link-active::after {
   content: "";
   position: absolute;
   bottom: -1px;
@@ -248,32 +249,6 @@ address {
   border-radius: 2px;
 }
 
-.button-primary {
-  background-color: var(--color-primary-brand);
-  color: var(--color-white-background);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.04em;
-  cursor: pointer;
-  padding: 16px 32px;
-  border-radius: 4px;
-  margin: 0 auto;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  min-width: 169px;
-  border: none;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.button-primary:hover {
-  background-color: var(--color-pressed);
-}
-
-.button-primary:focus-visible {
-  background-color: var(--color-pressed);
-  outline: 2px solid var(--color-white-background);
-  outline-offset: 2px;
-}
 /* #endregion Components */
 
 /* #region Header */
@@ -336,7 +311,7 @@ address {
   line-height: 60px;
   letter-spacing: 0.02em;
   padding: 188px 0;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.png);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -348,6 +323,33 @@ address {
 .hero-title {
   margin-bottom: 48px;
   max-width: 496px;
+}
+
+.button-primary {
+  background-color: var(--color-primary-brand);
+  color: var(--color-white-background);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  padding: 16px 32px;
+  border-radius: 4px;
+  margin: 0 auto;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  min-width: 169px;
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button-primary:hover {
+  background-color: var(--color-pressed);
+}
+
+.button-primary:focus-visible {
+  background-color: var(--color-pressed);
+  outline: 2px solid var(--color-white-background);
+  outline-offset: 2px;
 }
 /* #endregion Hero */
 

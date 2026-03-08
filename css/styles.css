@@ -204,7 +204,7 @@ address {
   position: relative;
 }
 
-.nav-link-active:after {
+.nav-link::after {
   content: "";
   position: absolute;
   bottom: -1px;

@@ -500,7 +500,7 @@ address {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-card-icon-link:hover {
   background-color: #404bbf;
@@ -529,6 +529,7 @@ address {
     0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
+  transform: translateY(0%);
 }
 
 .portfolio-titles {
@@ -590,6 +591,7 @@ address {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.66;
+  letter-spacing: 0.02em;
   opacity: 0;
   transition:
     transform 300ms ease-in-out,

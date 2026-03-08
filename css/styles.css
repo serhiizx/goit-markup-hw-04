@@ -315,7 +315,7 @@ address {
   line-height: 60px;
   letter-spacing: 0.02em;
   padding: 188px 0;
-  background-image: url("images/people-office.png");
+  background-image: url("../images/people-office.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

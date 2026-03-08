@@ -203,7 +203,8 @@ address {
   color: #404bbf;
   position: relative;
 }
-.nav-link-active::after {
+
+.nav-link-active:after {
   content: "";
   position: absolute;
   bottom: -1px;

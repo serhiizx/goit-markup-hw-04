@@ -484,6 +484,8 @@ address {
   display: flex;
   gap: 24px;
   justify-content: center;
+  width: 40px;
+  height: 40px;
 }
 .team-card-icon-link {
   width: 100%;

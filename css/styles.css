@@ -630,8 +630,9 @@ address {
 
 .footer-logo-root {
   max-width: 264px;
+  margin-right: 120px;
 }
-.footer-main h3 {
+.footer-socials {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.66;

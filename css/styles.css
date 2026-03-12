@@ -643,7 +643,7 @@ address {
   font-size: 16px;
   line-height: 1.5;
   margin: 0 0 16px 0;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .footer-socials-list {
@@ -666,7 +666,7 @@ address {
   align-items: center;
   justify-content: center;
 }
-.footer-socials-link:hover{
+.footer-socials-link:hover {
   background-color: #31d0aa;
 }
 .footer-socials-link:focus {

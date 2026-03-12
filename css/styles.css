@@ -630,9 +630,14 @@ address {
   max-width: 264px;
 }
 
-.footer-logo-root {
+.footer-left {
   max-width: 264px;
   margin-right: 120px;
+}
+.footer-right {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
 }
 .footer-socials {
   font-weight: 500;

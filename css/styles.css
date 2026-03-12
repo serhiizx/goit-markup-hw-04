@@ -667,10 +667,10 @@ address {
   align-items: center;
   justify-content: center;
 }
-.footer-social-link:hover{
+.footer-socials-link:hover{
   background-color: #31d0aa;
 }
-.footer-social-link:focus-visible {
+.footer-socials-link:focus-visible {
   background-color: #31d0aa;
 }
 .footer-socials-link-svg {

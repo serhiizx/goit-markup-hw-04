@@ -608,6 +608,7 @@ address {
   gap: 120px;
   display: flex;
   align-items: baseline;
+  width: 100%;
 }
 
 .footer-brand {
@@ -666,6 +667,7 @@ address {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-socials-link:hover{
   background-color: #31d0aa;

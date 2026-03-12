@@ -606,6 +606,8 @@ address {
 
 .footer .container {
   gap: 120px;
+  display: flex;
+  align-items: baseline;
 }
 
 .footer-brand {

@@ -670,7 +670,7 @@ address {
 .footer-socials-link:hover{
   background-color: #31d0aa;
 }
-.footer-socials-link:focus-visible {
+.footer-socials-link:focus {
   background-color: #31d0aa;
 }
 .footer-socials-link-svg {
